@@ -1,12 +1,90 @@
 <html>
     <head>
         <meta charset='utf-8'>
-        <link rel='stylesheet' href='/css/estilos-main.css'/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+        <link rel='stylesheet' href='css/estilos-home.css'/>
     </head>
     <body>
-        <div class=".div-cabecalho">
+        <div class="div-cabecalho">
             Sua História Começa Aqui!
         </div>
 
+        <div class="div-topbar">
+            <div class="div-topbar-left">
+                <img src="img/icons/Logo_1.png" class="img-topbar"/>
+            </div>
+            <div class="div-topbar-center">
+                Opções Menu
+            </div>
+            <div class="div-topbar-right">
+                <button class="button-icons" onclick="location.href='pages/login.html'">
+                    <span class="material-icons" style="font-size:35px;">
+                        perm_identity
+                    </span>
+                </button>
+                <button class="button-icons">
+                    <span class="material-icons" style="font-size:35px;">
+                        search
+                    </span>
+                </button>
+                <button class="button-icons">
+                    <span class="material-icons" style="font-size:35px">
+                        shopping_cart
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="div-cadastro">
+            <div>Os melhores produtos para sua sessão de RPG de Mesa!</div>
+
+            <button class="button-cadastro" onclick="location.href='pages/cadastro.html'">Cadastre-se</button>
+        </div>
+
+        <div class="div-produto">
+            <div class="div-titulo-produto">Produtos mais vendidos:</div>
+            <div class="div-card-produto">
+                <div class="div-card-produto-item">
+                    <div class="div-card-produto-img">
+                        <img src="img/produtos/conjunto-dados-azul.jpg"/>
+                    </div>
+                    <div class="div-card-produto-desc">
+                        Conjunto de dados
+                    </div>
+                    <div class="div-card-produto-bottom">
+                        <button onclick="location.href='pages/formulario.html'" class="div-card-produto-button">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="div-card-produto-item">
+                    <div class="div-card-produto-img">
+                        <img src="img/produtos/livro-do-jogador-dnd.jpeg"/>
+                    </div>
+                    <div class="div-card-produto-desc">
+                        Livro do jogador
+                    </div>
+                    <div class="div-card-produto-bottom">
+                        <button onclick="location.href='pages/formulario.html'" class="div-card-produto-button">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="div-card-produto-item">
+                    <div class="div-card-produto-img">
+                        <img src="img/produtos/kit-miniaturas-rpg-dd.jpg"/>
+                    </div>
+                    <div class="div-card-produto-desc">
+                        Miniaturas
+                    </div>
+                    <div class="div-card-produto-bottom">
+                        <button onclick="" class="div-card-produto-button">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <button class="button-ver-mais">Ver mais produtos</button>
+        </div>
     </body>
 </html>
