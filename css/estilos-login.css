@@ -50,7 +50,7 @@ body{
     text-align:center;  
 }
 
-.div-card-central-inputs form input[type=text], select {
+.div-card-central-inputs form input[type=text], form input[type=password], select {
     width: 50%;
     padding: 10px 20px;
     margin: 5px 0;
