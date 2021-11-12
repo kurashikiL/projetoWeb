@@ -90,6 +90,8 @@ body{
 }
 
 .button-remove{
+    position:relative;
+    right:700px;
     width: 30%;
     background-color: red;
     color: white;
