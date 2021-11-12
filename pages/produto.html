@@ -17,37 +17,41 @@
 
     <body>
 
-        <div class="div-cabecalho">
-            Sua História Começa Aqui!
-        </div>
+        <div class="div-tela">
 
-        <div class="div-topbar">
-            <div class="div-topbar-left">
-                <img src="../img/icons/Logo_2.png" class="img-topbar"/>
+            <div class="div-cabecalho">
+                Sua História Começa Aqui!
             </div>
-            <div class="div-topbar-center">
-                Opções Menu
+
+            <div class="div-topbar">
+                <div class="div-topbar-left">
+                    <img src="../img/icons/Logo_2.png" class="img-topbar" onclick="location.href='../index.html'"/>
+                </div>
+                <div class="div-topbar-center">
+                    Opções Menu
+                </div>
+                <div class="div-topbar-right">
+                    <button class="button-icons" onclick="location.href='login.html'">
+                        <span class="material-icons" style="font-size:35px;">
+                            perm_identity
+                        </span>
+                    </button>
+                    <button class="button-icons">
+                        <span class="material-icons" style="font-size:35px;">
+                            search
+                        </span>
+                    </button>
+                    <button class="button-icons" onclick="location.href='carrinho.html'">
+                        <span class="material-icons" style="font-size:35px">
+                            shopping_cart
+                        </span>
+                    </button>
+                </div>
             </div>
-            <div class="div-topbar-right">
-                <button class="button-icons" onclick="location.href='login.html'">
-                    <span class="material-icons" style="font-size:35px;">
-                        perm_identity
-                    </span>
-                </button>
-                <button class="button-icons">
-                    <span class="material-icons" style="font-size:35px;">
-                        search
-                    </span>
-                </button>
-                <button class="button-icons" onclick="location.href='carrinho.html'">
-                    <span class="material-icons" style="font-size:35px">
-                        shopping_cart
-                    </span>
-                </button>
+            <div id="div-produto">
+                
             </div>
-        </div>
-        <div id="div-produto">
-            
+
         </div>
     </body>
 
