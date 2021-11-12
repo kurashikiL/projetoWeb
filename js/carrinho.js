@@ -22,7 +22,7 @@ function montarCardProdutos(){
         conteudo += listaCarrinho[i][1];
         conteudo += '</td>';
         conteudo += '<td>';
-        conteudo += '<button onclick="removeItem('+i+')">Remover</button>';
+        conteudo += '<button class="button-remove" onclick="removeItem('+i+')">Remover</button>';
         conteudo += '</td>';
         conteudo += '</tr>';
 
