@@ -12,7 +12,9 @@ body{
     background-size: 100% 100%;
     background-repeat: repeat-y;
 }
-
+.logo-login{
+    cursor: pointer;
+}
 
 .div-cabecalho{
     position: relative;
