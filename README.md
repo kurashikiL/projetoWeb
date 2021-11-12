@@ -1,3 +1,3 @@
 # projetoWeb
 
-Projeto semestral da disciplina de Programação Web
+Projeto utilizando HTML, CSS e JS
