@@ -1,6 +1,8 @@
 body{
 
-    margin:0px
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: burlywood;
 
 }
 
@@ -19,7 +21,7 @@ body{
 .div-card-central{
     position: relative;
     width: 500px;
-    height: 600px;
+    height: 610px;
     top:15%;
     left:35%;
     background-color: white;
@@ -59,7 +61,7 @@ body{
     background-color: #4CAF50;
     color: white;
     padding: 15px 20px;
-    margin: 10px 0;
+    margin: 5px 0;
     border: none;
     border-radius: 5px;
     cursor: pointer;
