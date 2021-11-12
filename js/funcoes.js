@@ -1,4 +1,11 @@
-var listaProdutos = [[0, 'Kit de Dados Azul', 'conjunto-dados-azul.jpg',false],[1,'Kit Miniaturas DnD','kit-miniaturas-rpg-dd.jpg',false]];
+var listaProdutos = [
+[0, 'Kit de Dados Azul', 'conjunto-dados-azul.jpg',false],
+[1,'Kit Miniaturas DnD','kit-miniaturas-rpg-dd.jpg',false],
+[2,'Livro do Jogador','livro-do-jogador-dnd.jpeg',false],
+[3,'Manual do Mestre','manual-do-mestre.jpg',false],
+[4,'Escudo de Mestre','escudo-do-mestre.jpg',false],
+[5,'Kit de Dados Pretos','conjunto-dados-pretos.jpg',false]];
+
 var carrinho = [];
 window.onload = function(){
     montarCardProdutos();
